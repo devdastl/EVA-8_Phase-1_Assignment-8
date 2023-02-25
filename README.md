@@ -155,3 +155,8 @@ Below is the plot of mis-classified images while validating on 20th epoch.
 #### GradCAM of mis-classified images
 Below are GradCAM images for 10 mis-classified images. We have captured GradCAM in two different layers
 ![Alt text](report/misclassified_grad_8.png?raw=true "")
+
+## Conclusion
+1. We achieved our assignment target i.e. ~90% test accuracy under 24 epoch.
+1. Using One Cycle Policy is a great way to converge the model faster. Note that it does not increase or imrove the model but make model to train faster.
+2. torch_lr_finder library is really useful to get best LR which can be used with OCP. Note that torch_lr_finder values can change based on model initilzation.
