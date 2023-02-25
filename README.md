@@ -40,8 +40,8 @@ In this assignment I am using [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.h
 3. `CoarseDropOut` - Overlay a rectangle patch(half the size of original image) on a image randomly. (simulate object hindarence)
 6. `Normalize` - Normalize image i.e. zero centring (zero mean) and scaling (one std)
 
-Below is the graph representing the input training dataset after appling all augmentations c .
-![Alt text](report/data_6.JPG?raw=true "model architecture")
+Below is the graph representing the input training dataset after appling all augmentations.
+![Alt text](report/data_6.png?raw=true "model architecture")
 
 ## Model representation
 As mentioned, in this assignment we are training restNET18 architecture which has 18 convolution layers. You can find the model architecture defination in [auxlary repo](https://github.com/devdastl/eva8_source/blob/main/models/resnet.py).
